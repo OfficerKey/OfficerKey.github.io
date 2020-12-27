@@ -1,0 +1,259 @@
+
+input[type="radio"]:checked ~ .info .card{
+	display: none;
+}
+
+@media(min-width: 1200px){
+	.info .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 360px;
+    height:340px;
+    margin: 20px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.info .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #ffe0a6;
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+	color: #666;
+}
+ 
+.widget {
+  padding: 20px 30px;
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightblue;
+  display: inline-block;
+  float: right;
+}
+.widget-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  border-left: 2px solid #b99d61;
+}
+.widget-list {
+  padding: 0;
+  list-style: none;
+}
+
+.widget .info{
+	display: flex;
+	flex-flow: column wrap;
+}
+.info .card{
+	flex: 1 1 250px;
+	margin: 10px;
+ border-radius: 5px;
+ padding: 10px 10px 0 10px;
+ background-color: rgba(0,0,0, .1);
+ display: inline-block;
+ 
+}
+}
+@media(min-width: 370px) and (max-width: 730px)
+{
+	.info .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    height:270px;
+    margin: 20px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.info .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+	width: 150px;
+	height: 100px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #ffe0a6;
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+	color: #666;
+}
+ 
+.widget {
+  padding: 20px 30px;
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightblue;
+  display: block;
+  width: 320px;
+  height: 300px;
+}
+
+.widget-list {
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  flex-flow: row wrap;
+
+}
+
+.widget .info{
+	display: flex;
+	flex-flow: row wrap;
+}
+.info .card{
+	flex: 1 1 250px;
+	margin: 10px;
+ border-radius: 5px;
+ padding: 10px 10px 0 10px;
+ background-color: rgba(0,0,0, .1);
+ display: inline-block;
+ 
+}
+}
+
+@media(min-width: 730px) and ( max-width: 1199px)
+{
+	.info .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    height:340px;
+    margin: 20px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.info .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #ffe0a6;
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+	color: #666;
+}
+ 
+.widget {
+	width: 1000px;
+	height: 100px;
+  padding: 20px 30px;
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightblue;
+  display: inline-block;
+  float: left;
+  
+}
+.widget-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  border-left: 2px solid #b99d61;
+}
+.widget-list {
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+}
+
+
+.info .card{
+	flex: 1 1 250px;
+	margin: 10px;
+ border-radius: 5px;
+ padding: 10px 10px 0 10px;
+ background-color: rgba(0,0,0, .1);
+ display: inline-block;
+ 
+}
+}
